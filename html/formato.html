@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://micrssct.github.io/Estilos_y_Scripts/css/styles-sidebar.css">
+    <style>
+        /* Estilos para el contenedor de botones */
+        .container-btns {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            /*Este es importante para que se mantenga el formato de 2 columnas (se puede cambiar),
+            si se cambia a 1fr se vuelve una sola columna*/
+            margin: 20px 0 50px 0;
+            grid-column-gap: 20px;
+            grid-row-gap: 15px;
+            justify-items: center;
+        }
+
+        .container-btns .btns {
+            width: 300px;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border: 2px solid #8e1f41;
+            border-radius: 15px;
+            box-shadow: 0px 7px 5px 3px #550c2224;
+            transition: transform 1s ease, box-shadow 1s ease;
+        }
+
+        .container-btns .btns:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 7px 5px 4px #550c223e;
+        }
+
+        .container-btns .btns img {
+            width: auto;
+            height: 150px;
+            margin: 20px 0 10px 0;
+        }
+
+        .container-btns .btns h2 {
+            font-size: 2rem;
+        }
+
+        .container-btns .btns a {
+            display: inline-block;
+            padding: 5px 20px;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            color: #9d2449;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .container-btns .btns a:hover {
+            color: #6d1731;
+        }
+
+        /* Estilos para la lista de enlaces */
+        .link-list {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .link-item {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 14px 20px 14px 50px;
+            text-decoration: none;
+            color: #333;
+            position: relative;
+            transition: all 0.5s ease;
+            border-bottom: 1px solid #c9b48a;
+            background: #DDC9A3;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        .link-item:hover {
+            background-color: #a57f2c;
+            color: #fff;
+            padding-left: 60px;
+        }
+
+        .link-item::before {
+            content: "";
+            position: absolute;
+            left: 20px;
+            width: 6px;
+            height: 6px;
+            background-color: #6b5219;
+            border-radius: 50%;
+            transition: background-color 0.5s ease;
+        }
+
+        .link-item:hover::before {
+            background-color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .container-btns {
+                grid-template-columns: 1fr 1fr;
+                gap: 40px 0px;
+            }
+
+            .container-btns .btns:hover {
+                transform: scale(1.1);
+            }
+
+            .link-item {
+                padding: 12px 16px 12px 44px;
+            }
+
+            .link-item:hover {
+                padding-left: 50px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container-btns {
+                grid-template-columns: 1fr;
+                gap: 25px 0px;
+            }
+
+            .container-btns .btns:hover {
+                transform: scale(1.05);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Contenedor del título -->
+    <div class="container-title">
+        <h1>Titulo Principal</h1>
+        <hr>
+    </div>
+
+    <!-- Contenedor del texto -->
+    <div class="container-txt">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi aut nam quo eius rem tempore rerum recusandae
+            veniam. Magnam, fugiat quae. Voluptate molestias soluta ratione perferendis consectetur aut praesentium
+            ullam!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum praesentium provident voluptas nihil odio sit
+            ipsam, repudiandae vel quibusdam fuga quasi voluptatem ratione nemo magni deserunt voluptatum consequuntur
+            dignissimos obcaecati!
+        </p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa ratione cum cupiditate quibusdam laborum
+            repudiandae dolorem accusamus animi sunt, error mollitia possimus quidem consectetur inventore, corporis
+            praesentium cumque accusantium. Facilis.
+        </p>
+
+        <!-- Contenedor de la lista de enlaces (No es necesario pero por si acaso) -->
+        <div class="link-list">
+            <a class="link-item" href="index.php/infraestructura/direccion-general-de-carreteras/"></a>
+
+            <a class="link-item" href="index.php/infraestructura/direccion-general-de-carreteras/"></a>
+
+            <a class="link-item" href="index.php/infraestructura/direccion-general-de-carreteras/"></a>
+
+            <a class="link-item" href="index.php/infraestructura/direccion-general-de-carreteras/"></a>
+
+            <a class="link-item" href="index.php/infraestructura/direccion-general-de-carreteras/"></a>
+        </div>
+    </div>
+
+    <!-- Contenedor de los botones -->
+    <div class="container-btns">
+        <div class="btns">
+            <img src="/images/DireccionesGrales/DGC/DGC/" alt="" />
+            <a href="infraestructura/direccion-general-de-carreteras/">
+                <h2></h2>
+            </a>
+        </div>
+        <div class="btns">
+            <img src="/images/DireccionesGrales/DGC/DGC/" alt="" />
+            <a href="infraestructura/direccion-general-de-carreteras/">
+                <h2></h2>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
