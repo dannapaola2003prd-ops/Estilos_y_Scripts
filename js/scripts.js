@@ -1,16 +1,17 @@
 /* ── Slider principal DGC ── */
     const dgcSlides = [
-      { id: 'slide-1',  caption: 'Carretera Real del Monte-Huasca.' },
-      { id: 'slide-2',  caption: 'Programa de Pavimentación de Caminos a Cabeceras Municipales.' },
-      { id: 'slide-3',  caption: 'Modernización de la autopista La Pera - Cuautla, Morelos.' },
-      { id: 'slide-4',  caption: 'Ayutla - Acatepec, Guerrero.' },
-      { id: 'slide-5',  caption: 'Av. Morones Prieto y calle José Calderón, Nuevo León.' },
-      { id: 'slide-6',  caption: 'Chiná - E.C. (Haltunchen - Cayal), Campeche.' },
-      { id: 'slide-7',  caption: 'Distribuidor Aeropuerto Cancún, Quintana Roo.' },
-      { id: 'slide-8',  caption: 'Cd. del Carmen - Campeche, Campeche.' },
-      { id: 'slide-9',  caption: 'Puente vehicular Nichupté - Cancún, Quintana Roo.' },
-      { id: 'slide-10', caption: 'Pachuca - Huejutla, Hidalgo.' },
-      { id: 'slide-11', caption: 'Puente la Concordia, Chiapas.' },
+        { id: 'slide-1',  caption: 'Bavispe - Nuevo Casas Grandes, Sonora - Chihuahua.' },
+  { id: 'slide-2',  caption: 'Puente vehicular Nichupté - Cancún, Quintana Roo.' },
+  { id: 'slide-3',  caption: 'Carretera Real del Monte-Huasca.' },
+  { id: 'slide-4',  caption: 'Programa de Pavimentación de Caminos a Cabeceras Municipales.' },
+  { id: 'slide-5',  caption: 'Modernización de la autopista La Pera - Cuautla, Morelos.' },
+  { id: 'slide-6',  caption: 'Ayutla - Acatepec, Guerrero.' },
+  { id: 'slide-7',  caption: 'Av. Morones Prieto y calle José Calderón, Nuevo León.' },
+  { id: 'slide-8',  caption: 'Chiná - E.C. (Haltunchen - Cayal), Campeche.' },
+  { id: 'slide-9',  caption: 'Distribuidor Aeropuerto Cancún, Quintana Roo.' },
+  { id: 'slide-10', caption: 'Cd. del Carmen - Campeche, Campeche.' },
+  { id: 'slide-11', caption: 'Pachuca - Huejutla, Hidalgo.' },
+  { id: 'slide-12', caption: 'Puente la Concordia, Chiapas.' },
     ];
     const cap = document.getElementById('slider-caption');
     dgcSlides.forEach(s =>
