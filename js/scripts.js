@@ -57,9 +57,9 @@
       {
         tag: 'Chiapas',
         title: 'Puente Rizo de Oro',
-        p1: 'Esta obra presenta avance de más del 80% y beneficiará a 300 mil habitantes de 10 municipios de Chiapas al reducir los traslados en casi una hora.',
-        p2: 'Durante su edificación se han generado 5 mil 715 empleos directos e indirectos. Con estas acciones, la SICT avanza en la consolidación de una infraestructura que será símbolo de conectividad, desarrollo regional y capacidad técnica en el sureste del país.',
-        stats: [['>80%','Avance de obra'],['300 mil','Habitantes beneficiados'],['5,715','Empleos generados']]
+        p1: '¡Avanza la construcción del Puente Rizo de Oro en Chiapas! ',
+        p2: ' Esta moderna estructura de la ingeniería mexicana registra un avance del 98% y representa una obra de justicia social para más de 300 mil habitantes que cruzan la Presa La Angostura.',
+        
       },
       {
         tag: 'Quintana Roo',
