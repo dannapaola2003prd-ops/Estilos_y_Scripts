@@ -56,12 +56,7 @@ const DATA = [
     p1: '¡Avanza la construcción del Puente Rizo de Oro en Chiapas!',
     p2: 'Esta moderna estructura de la ingeniería mexicana registra un avance del 98% y representa una obra de justicia social para más de 300 mil habitantes que cruzan la Presa La Angostura.'
   },
-  {
-    tag: 'Quintana Roo',
-    title: 'Puente Vehicular Nichupté',
-    p1: 'El Puente Vehicular Nichupté en Cancún beneficia a más de 1.3 millones de habitantes y favorece a turistas que visitan la región, es uno de los puentes más largos de América Latina sobre una laguna. Cuenta con 10 programas ambientales que protegen la zona ecológica del manglar. Esta obra emblemática transforma la movilidad en Cancún, al conectar la ciudad con la zona hotelera e impulsa el desarrollo social y económico de la zona',
-    p2: ''
-  },
+  
   {
     tag: 'Tabasco · Campeche · Chiapas',
     title: 'Carretera Macuspana - Escárcega',
